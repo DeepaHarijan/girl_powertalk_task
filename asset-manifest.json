@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/girl_powertalk_task/static/css/main.3d95c003.css",
+    "main.js": "/girl_powertalk_task/static/js/main.6249621b.js",
+    "static/js/787.9f694c0a.chunk.js": "/girl_powertalk_task/static/js/787.9f694c0a.chunk.js",
+    "static/media/gpt-banner-video.mp4": "/girl_powertalk_task/static/media/gpt-banner-video.86ce42026a544325dbf4.mp4",
+    "static/media/home-about-girl-power-talk-min.png": "/girl_powertalk_task/static/media/home-about-girl-power-talk-min.97b1d78881fa9304caa8.png",
+    "static/media/Rectangle-138.png": "/girl_powertalk_task/static/media/Rectangle-138.2e77c0c471a4e0be8c33.png",
+    "static/media/value1.png": "/girl_powertalk_task/static/media/value1.fe1ee97fea6a00198a9a.png",
+    "static/media/rachita2-carasoul.png": "/girl_powertalk_task/static/media/rachita2-carasoul.53073a0b43557148ff38.png",
+    "static/media/value3.jpg": "/girl_powertalk_task/static/media/value3.ef0637dee81d43e6f2b7.jpg",
+    "static/media/value2.jpg": "/girl_powertalk_task/static/media/value2.acb0fa2750678a92123d.jpg",
+    "static/media/f2-team-carousel.jpg": "/girl_powertalk_task/static/media/f2-team-carousel.031058e7af54198776c7.jpg",
+    "static/media/chipiwa-teaching.png": "/girl_powertalk_task/static/media/chipiwa-teaching.b24e39c8c05d94867409.png",
+    "static/media/Aashna-1.png": "/girl_powertalk_task/static/media/Aashna-1.a8d8b41e316b6bcfbc86.png",
+    "static/media/Devanshi.png": "/girl_powertalk_task/static/media/Devanshi.f14aa4fb0b45a5083a5e.png",
+    "static/media/noorien-sq.jpg": "/girl_powertalk_task/static/media/noorien-sq.acff12d326d6e5b8427d.jpg",
+    "static/media/value4.jpg": "/girl_powertalk_task/static/media/value4.2a4925d304e07725e750.jpg",
+    "static/media/Muskan.png": "/girl_powertalk_task/static/media/Muskan.1b59113cd84a6740002f.png",
+    "static/media/Upashana.png": "/girl_powertalk_task/static/media/Upashana.0474f02a160719457241.png",
+    "static/media/Dee.png": "/girl_powertalk_task/static/media/Dee.4ee140a004f40ad8e751.png",
+    "static/media/Marion.png": "/girl_powertalk_task/static/media/Marion.1e44771417ba39faf64d.png",
+    "static/media/nitya-gupta.png": "/girl_powertalk_task/static/media/nitya-gupta.26a2dca0839a3b709491.png",
+    "static/media/2.png": "/girl_powertalk_task/static/media/2.34a9dea6abcb222ab065.png",
+    "static/media/3.png": "/girl_powertalk_task/static/media/3.033dafd233bec733db79.png",
+    "static/media/GPT-logo.png": "/girl_powertalk_task/static/media/GPT-logo.1fc1615d557aac6224e4.png",
+    "static/media/slick.svg": "/girl_powertalk_task/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/girl_powertalk_task/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/girl_powertalk_task/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/girl_powertalk_task/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/girl_powertalk_task/index.html",
+    "main.3d95c003.css.map": "/girl_powertalk_task/static/css/main.3d95c003.css.map",
+    "main.6249621b.js.map": "/girl_powertalk_task/static/js/main.6249621b.js.map",
+    "787.9f694c0a.chunk.js.map": "/girl_powertalk_task/static/js/787.9f694c0a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3d95c003.css",
+    "static/js/main.6249621b.js"
+  ]
+}

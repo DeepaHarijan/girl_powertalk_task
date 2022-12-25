@@ -1,0 +1,184 @@
+
+
+video {
+
+  height:100vh;
+   width:100%; 
+   object-fit:cover;
+}
+
+
+.overlay{
+  position:absolute;
+  top:0;
+   left:0;
+    width:100%;
+     height:100% ;
+       background-image: linear-gradient(90deg,rgba(255, 0, 0, 0.5) 0%,rgba(255, 156, 8, 0.6) 10%,rgba(202, 220, 11, 0.6),rgba(68, 231, 62, 0.6) 30%,rgba(49, 222, 219, 0.6) 40%,rgba(49, 166, 216, 0.6) 50%,rgba(21, 84, 230, 0.6) 60%,rgba(122, 18, 225, 0.6) 70%,rgba(198, 6, 220, 0.658) 80%,rgba(225, 3, 196, 0.6) 90%,rgba(255, 0, 0, 0.5) 100%);
+        filter: contrast(300%);
+         filter: saturation(200%);
+         filter: brightness(80%);
+         filter:blur(190%)
+}
+main{
+    text-align:center;
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  color: #fff;
+  font-family:'Roboto';
+  font-weight:300;
+  font-size:4rem;
+  font-weight: 800;
+  padding-top:40vh;
+
+  overflow:hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  perspective: 1000;
+  -webkit-perspective: 1000;
+  transform: translate3d(0,0,0);
+  -webkit-transform: translate3d(0,0,0);
+}
+
+
+
+
+section{
+    display:inline-block;
+    overflow:hidden;
+    white-space:nowrap;
+  }
+  
+ section:first-of-type {    /* For increasing performance 
+                         ID/Class should've been used. 
+                         For a small demo 
+                         it's okaish for now */
+    animation: showup 7s infinite;
+  }
+  
+  section:last-of-type {
+    width:0px;
+    animation: reveal 7s infinite;
+  }
+  
+  section:last-of-type span {
+    margin-left:-355px;
+    animation: slidein 7s infinite;
+  }
+  
+  @keyframes showup {
+      0% {opacity:0;}
+      20% {opacity:1;}
+      80% {opacity:1;}
+      100% {opacity:0;}
+  }
+  
+  @keyframes slidein {
+      0% { margin-left:-800px; }
+      20% { margin-left:-800px; }
+      35% { margin-left:0px; }
+      100% { margin-left:0px; }
+  }
+  
+  @keyframes reveal {
+      0% {opacity:0;width:0px;}
+      20% {opacity:1;width:0px;}
+      30% {width:375px;}
+      80% {opacity:1;}
+      100% {opacity:0;width:385px;}
+  }
+
+
+
+
+
+
+    
+ 
+  
+ @media screen and (max-device-width: 480px)
+ and (orientation: portrait){
+
+  .overlay{
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 300px;
+    z-index: 1;
+  }
+
+  video{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 300px;
+  }
+
+
+  main{
+  font-weight:200;
+  font-size:2rem;
+  position: absolute;
+  top: 3%;
+  left: 3%;
+  z-index: 100;
+}
+@keyframes reveal {
+  0% {opacity:0;width:0px;}
+  20% {opacity:1;width:0px;}
+  30% {width:175px;}
+  80% {opacity:1;}
+  100% {opacity:0;width:185px;}
+}
+
+ }
+
+
+ /* @media screen and (width: 412px){
+  main{
+    font-weight:400;
+    font-size:2rem;
+    position: absolute !important;
+    top:-20% !important;
+    left: 25% !important;
+    z-index: 100;
+    color: white;
+  }
+ } */
+
+
+ @media (max-width: 991px){
+  .overlay{
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 300px;
+    z-index: 1;
+  }
+
+  video{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 300px;
+  }
+
+
+  main{
+  font-weight:200;
+  font-size:2rem;
+  position: absolute;
+  top: 3%;
+  left: 3%;
+  z-index: 100;
+
+}
+@keyframes reveal {
+  0% {opacity:0;width:0px;}
+  20% {opacity:1;width:0px;}
+  30% {width:175px;}
+  80% {opacity:1;}
+  100% {opacity:0;width:185px;}
+}
+ }

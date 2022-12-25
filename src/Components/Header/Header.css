@@ -1,0 +1,300 @@
+:root{
+    --main-color: #d3ad7f;
+    --black:#13131a;
+    --bg:#010103;
+    --border:.1rem solid rgba(255,255,255,.2);
+}
+.Header{
+    background-image: linear-gradient(90deg,rgba(255, 0, 0, 0.5) 0%,rgba(255, 156, 8, 0.6) 10%,rgba(202, 220, 11, 0.6),rgba(68, 231, 62, 0.6) 30%,rgba(49, 222, 219, 0.6) 40%,rgba(49, 166, 216, 0.6) 50%,rgba(21, 84, 230, 0.6) 60%,rgba(122, 18, 225, 0.6) 70%,rgba(198, 6, 220, 0.658) 80%,rgba(225, 3, 196, 0.6) 90%,rgba(255, 0, 0, 0.5) 100%);
+border: none !important;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 7%;
+    border-bottom: var(--border);
+    position: fixed;
+    top: 0; left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.Header .navbar a{
+    margin: 0 2rem;
+    font-size: 2rem;
+    padding: 1.5rem;
+    color: white;
+    text-transform: capitalize;
+}
+
+
+.Header .navbar a:hover{
+    color: black;
+    border-bottom: 2px solid aqua;
+}
+
+
+.Header .icons div{
+    color: white;
+    cursor: pointer;
+    font-size: 2.5rem;
+    margin-left: 2rem;
+}
+
+
+.Header .icons div:hover{
+ 
+ background: -moz-linear-gradient(top, #202020 30%, #e1f8b2 70%);
+  background: -webkit-linear-gradient(top, #202120 30%, #e1f8b2 70%);
+  background: linear-gradient(to right, #151515 30%, #e1f8b2  70%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.Header .logo  img{
+    height: 3.8rem;
+    cursor: pointer;
+ }
+
+
+ #search-form{
+    position:absolute;
+    top:-115% ;right:7%;
+    background: #fff;
+    width: 50rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    transform: scaleY(0);
+    transform-origin: top;
+}
+
+
+ #search-form.active{
+    top: 115%;
+    transform: scaleY(1);
+}
+
+#search-form input{
+    height: 100%;
+    width:100%;
+    font-size: 1.6rem;
+    color: var(--black);
+    padding: 1rem;
+    text-transform: none;
+}
+
+
+
+.Header #search-form label {
+    cursor: pointer;
+    font-size: 2.2rem;
+    margin-right: 1.5rem;
+    color: var(--black);
+}
+
+.Header #search-form label:hover{
+    color: var(--main-color);
+}
+
+
+#extra-menu{
+    position: absolute;
+    right: -300px;
+    top: 100%;
+    background-color: rgba(255, 255, 255, 0.831);
+    width: 300px;height: 100vh;
+    
+}
+
+#extra-menu.active{
+    right: 0;
+}
+
+#extra-menu ul li{
+    list-style: none;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#extra-menu ul li a:hover{
+    cursor: pointer; 
+}
+
+#extra-menu ul li:hover{
+    background-color: rgb(255, 255, 255);
+    color: #8c0625;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+
+
+ /* responsive */
+
+ @media (max-width: 991px){
+    
+    .Header .navbar{
+        position: absolute;
+        top:100%; right: -100%;
+        background: #fff;
+        width: 30rem;
+        height: calc(100vh - 9.5rem);
+    }
+
+    .Header .navbar.active{
+        right:0;
+    }
+
+
+    .Header .navbar a{
+        display: block;
+        margin:1.5rem;
+        padding:.5rem;
+        font-size: 2rem;
+    }
+
+    .Header{
+    background-color: rgba(255, 205, 96, 0.18);
+    padding: 1.2rem 6%;
+    z-index: 1000;
+    }
+    .Header .logo  img{
+        height: 2.5rem;
+        cursor: pointer;
+     }
+
+     .Header .icons div{
+        font-size: 1.5rem; 
+    }
+
+    #extra-menu{
+        position: absolute;
+        right: -300px;
+        top: 100%;
+        background-color: rgba(222, 222, 222, 0.945);
+        z-index: 10000;
+        width: 300px;
+        overflow-y: scroll;
+        color: black;
+    }
+
+    #search-form{
+        position:absolute;
+        top:-100% ;right:7%;
+        background: #fff;
+        width: 20rem;
+        height: 4rem;
+        display: flex;
+        align-items: center;
+        transform: scaleY(0);
+        transform-origin: top;
+    }
+
+    #search-form.active{
+        top: 100%;
+        transform: scaleY(1);
+    }
+    
+ }
+
+ /* TABLET VIEW */
+ @media screen and (min-device-width: 768px)
+and (max-device-width: 1024px) {
+    
+    .Header .navbar{
+        position: absolute;
+        top:100%; right: -100%;
+        background: #fff;
+        width: 30rem;
+        height: calc(100vh - 9.5rem);
+    }
+
+    .Header .navbar.active{
+        right:0;
+    }
+
+
+    .Header .navbar a{
+        display: block;
+        margin:1.5rem;
+        padding:.5rem;
+        font-size: 2rem;
+    }
+}
+
+
+
+
+
+
+ @media screen and (max-device-width: 480px)
+ and (orientation: portrait){
+    .Header .navbar{
+        position: absolute;
+        top:100%; right: -100%;
+        background: #fff;
+        width: 30rem;
+        height: calc(100vh - 9.5rem);
+    }
+
+    .Header .navbar.active{
+        right:0;
+    }
+
+
+    .Header .navbar a{
+        display: block;
+        margin:1.5rem;
+        padding:.5rem;
+        font-size: 2rem;
+    }
+
+    .Header{
+    background-color: rgba(255, 205, 96, 0.009);
+    padding: 1.2rem 6%;
+    z-index: 1000;
+    }
+    .Header .logo  img{
+        height: 2.5rem;
+        cursor: pointer;
+     }
+
+     .Header .icons div{
+        font-size: 1.5rem; 
+    }
+
+    #extra-menu{
+        position: absolute;
+        right: -300px;
+        top: 100%;
+        background-color: rgba(222, 222, 222, 0.945);
+        color: black;
+        z-index: 10000;
+        width: 300px;
+        overflow-y: scroll;
+    }
+
+    #search-form{
+        position:absolute;
+        top:-100% ;right:7%;
+        background: #fff;
+        width: 20rem;
+        height: 4rem;
+        display: flex;
+        align-items: center;
+        transform: scaleY(0);
+        transform-origin: top;
+    }
+
+    #search-form.active{
+        top: 100%;
+        transform: scaleY(1);
+    }
+ }
+
+ 
+ 

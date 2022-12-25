@@ -1,0 +1,52 @@
+.row .image {
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-color: rgb(23, 4, 4); */
+   flex-wrap: wrap;
+   margin-top: 1%;
+  
+}
+
+.row .image img:hover{
+    filter: brightness(40%);
+}
+
+.ytv .row .image  i{
+    color: red;
+    text-align: center;
+    margin-left: 12%;
+    margin-top: 8%;
+}
+
+
+
+@media screen and (max-device-width: 480px)
+and (orientation: portrait){
+    
+ .image img {
+       display: block;
+       margin: auto;
+       margin-top:15px ;
+       width: 80%;
+    } 
+    .ytv .row .image  i{
+        margin-left: 15rem;
+        margin-top: 6rem;
+    }
+    
+}
+
+@media screen and (width:425px){
+    .image img {
+        display: block;
+        margin: auto;
+        margin-top:15px ;
+        width: 80%;
+     } 
+     .ytv .row .image  i{
+         margin-left: 15rem;
+         margin-top: 6rem;
+     }
+}

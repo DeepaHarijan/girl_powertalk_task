@@ -1,0 +1,40 @@
+.partners .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap:1.5rem;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.partners .box-container .box{
+    padding: 2rem;
+    text-align: center;
+   
+    /* border: .1rem solid rgba(255, 255, 255, 0.562); */
+}
+
+.partners .box-container .box img{
+       height: 10rem;
+       
+}
+
+.partners button {
+    display: flex;
+    justify-content: center;
+}
+
+
+.partners .box-container .box:hover{
+    background-color: rgb(228, 255, 209);
+}
+
+
+
+@media screen and (max-device-width: 480px)
+and (orientation: portrait){
+    .partners .box-container .box img{
+        height: 8rem;
+        
+ }
+}
+

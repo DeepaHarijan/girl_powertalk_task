@@ -4,13 +4,13 @@ import { GoogleMap, InfoWindow, Marker } from "@react-google-maps/api";
 const markers = [
     {
       id: 1,
-      name: "Chicago, Illinois",
-      position: { lat: 41.881832, lng: -87.623177 }
+      name: "Canada, Canada",
+      position: { lat: 43.651070, lng: -79.347015 }
     },
     {
       id: 2,
-      name: "Denver, Colorado",
-      position: { lat: 39.739235, lng: -104.99025 }
+      name: "Srilanka, Srilanka",
+      position: { lat: 6.927079, lng: 79.861244 }
     },
     {
       id: 3,

@@ -38,13 +38,13 @@ function Header() {
           <ul>
             <li><a>Apply Now</a></li>
             <li><a>About Us</a></li>
-            <li style={{textDecoration:"underline", textDecorationColor:"blue"}}><i style={{paddingRight:"10px",color:"blue"}}className="fas fa-chevron-right"></i>Our Values</li>
-            <li><i className='fas fa-caret-right' style={{color:"blue" , padding:"0 5px"}}></i><a>Women in Technology</a></li>
-            <li><i className='fas fa-caret-right' style={{color:"blue" , padding:"0 5px"}}></i><a>Diversity & Inclusion</a></li>
-            <li><i className='fas fa-caret-right' style={{color:"blue" , padding:"0 5px"}}></i>Generate Impact</li>
-            <li><i className='fas fa-arrow-right' style={{color:"darkblue" , padding:"0 5px 0 18px", fontSize:"10px"}}></i><a>Social Impact</a></li>
-            <li><i className='fas fa-arrow-right' style={{color:"darkblue" , padding:"0 5px 0 18px", fontSize:"10px"}}></i><a>Education</a></li>
-            <li><i className='fas fa-caret-right' style={{color:"blue" , padding:"0 5px"}}></i><a>Entrepreneurial Culture</a></li>
+            <li style={{textDecoration:"underline", textDecorationColor:"blue"}}>Our Values</li>
+            <li><a>Women in Technology</a></li>
+            <li><a>Diversity & Inclusion</a></li>
+            <li>Generate Impact</li>
+            <li><a>Social Impact</a></li>
+            <li><a>Education</a></li>
+            <li><a>Entrepreneurial Culture</a></li>
             <li><a>Press</a></li>
             <li><a>Blog</a></li>
             <li><a>Podcast</a></li>
